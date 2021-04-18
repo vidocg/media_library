@@ -1,8 +1,10 @@
-var express         = require('express');
+require("@babel/register")({})
+const express = require('express');
+const mongoClient = require('./mongo-client');
 const jsonParser = express.json()
-var app = express();
+const app = express();
 
-app.listen(8181, function(){
+app.listen(8181, function () {
     console.log('Express server listening on port 8181');
 });
 

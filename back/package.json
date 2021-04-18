@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "express": "^4.17.1",
-    "express-logger": "0.0.3"
+    "mongodb": "^3.6.6",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/register": "^7.0.0"
   }
 }
